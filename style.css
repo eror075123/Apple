@@ -1,0 +1,283 @@
+body {
+    font-family: Work Sans;
+    background-color: #2B2B2B;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {  
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    height: 46px;
+    padding: 0px 20px;
+    gap: 12px;
+}
+
+.header-link {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 140%;
+    text-decoration: none;
+    color: #FFF;
+    transition: 0.5s;
+    width: 100px;
+}
+
+ .header-link:hover {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+      rotate: 720deg;
+    line-height: 140%;
+    text-decoration: none;
+    color:white;
+    background-color: black;
+    border-radius: 20px;
+}
+.btn-sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    padding: 0px 30px;
+    gap: 12px;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 140%; 
+    border-radius: 20px;
+    background-color: #A259FF;
+    color: #FFF;
+    cursor: pointer;
+    transition: 1s;
+}
+.btn-sign-up:hover {
+ 
+    border-radius: 20px;
+    background-color:white;
+    color:black;
+    cursor: pointer;
+    scale: 1.2;
+    rotate: 720deg;
+}
+.logo {
+   width: 70px;
+   transition: 1s;
+ 
+
+}
+.logo:hover {
+   scale: 1.2;
+    
+
+}
+
+ header {
+     display: flex;
+     justify-content: space-between;
+ }
+ .adittional-info{
+     display:flex;
+     gap: 30px;
+     color: white;
+ }
+  .hero-about h1 {
+      font-family: Work Sans;
+font-size: 67px;
+font-style: normal;
+font-weight: 600;
+line-height: 110%; /* 73.7px */
+text-transform: capitalize;
+width: 510px;
+ color: var(--White, #FFF);
+ margin-left:56px;
+  }
+  .hero-about p {
+      font-family: Work Sans;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 35.2px */
+text-transform: capitalize;
+color: white;
+position: relative;
+bottom:200px;
+  }
+  .card-info-title {
+      color: var(--White, #FFF);
+font-family: Work Sans;
+font-size: 23.99px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 38.384px */
+text-transform: capitalize;
+display:flex;
+
+  }
+  .card-info-value {
+  font-family: Space Mono;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: 140%; /* 39.2px */
+text-transform: capitalize;
+color: white;
+display: flex;
+position: relative;
+top: 30px;
+left: 60px;
+margin-bottom: 20px;
+  }
+  .card-info {
+      display: flex;
+
+
+  }
+  .img {
+      height: 150px;
+      width: 150px;
+      padding:15px;
+      border-radius:50px;
+  }
+  h2 {
+      color: white;
+      padding: 20px;
+      font-family: Work Sans;
+font-size: 38px;
+font-style: normal;
+font-weight: 600;
+line-height: 120%; /* 45.6px */
+text-transform: capitalize;
+  }
+  .Checko {
+/* Body Text- Work Sans */
+font-family: Work Sans;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; 
+color: white;
+  }
+  
+
+  .nft-card {
+  width: 330px;
+
+}
+
+.nft-card img {
+  display: flex;
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+
+.nft-info {
+  padding: 20px 30px 25px 30px;
+  border-radius: 0 0 20px 20px;
+  background-color: #3b3b3b;
+}
+
+.nft-info h5 {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 140%; /* 30.8px */
+  text-transform: capitalize;
+}
+
+.nft-cards {
+  flex-wrap: wrap;
+  display: flex;
+}
+ h1:hover{
+  scale: 1.1;
+ }
+ .imgimg {
+   display: flex;
+   width: 300px;
+  position: relative;
+  left: 550px;
+  bottom:210px;
+  border-radius: 30px;
+ }
+
+  .imgimg:hover {
+   display: flex;
+   width: 300px;
+  position: relative;
+  left: 550px;
+  bottom:210px;
+  scale: 1.1;
+ }
+
+ .btn-get-started {
+    height: 60px;
+    padding: 0px 30px;
+    gap: 12px;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 140%; 
+    border-radius: 20px;
+    background-color: #A259FF;
+    color: #FFF;
+    cursor: pointer;
+    transition: 1s;
+    margin-bottom: 50px;
+ }
+ .btn-get-started:hover {
+ 
+    border-radius: 20px;
+    background-color:white;
+    color:black;
+    cursor: pointer;
+    scale: 1.2;
+    rotate: 720deg;
+ }
+
+    .btn-artist-page {
+     height: 60px;
+    padding: 0px 30px;
+    gap: 12px;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 140%; 
+    border-radius: 20px;
+    background-color: #A259FF;
+    color: #FFF;
+    cursor: pointer;
+    transition: 1s;
+    margin-bottom: 50px;
+    }
+     .btn-artist-page:hover {
+ 
+    border-radius: 20px;
+    background-color:white;
+    color:black;
+    cursor: pointer;
+    scale: 1.2;
+    rotate: 720deg;
+     }
+
+
+     .h3 {
+       color:white;
+     }
